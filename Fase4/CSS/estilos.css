@@ -1,0 +1,102 @@
+header h1{
+    background-color: lightgreen;
+}
+header{
+    width: 100%;
+    background-color: teal;
+}
+.menu ul{
+    margin:0 ;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.menu li{
+    text-align: center;
+    flex-grow: 1;
+    border-right: 1px solid white;
+}
+.menu li:hover{
+    background: rgba(0,0,0,0.3);
+}
+.menu li a{
+    display: block;
+    padding: 20px 25px;
+    text-decoration: none;
+    color:white
+}
+.menu li ul{
+    display: none;
+}
+
+.menu li:hover > ul{
+    display: block;
+}
+.submenu{
+    position: absolute;
+    background-color: green;
+    width: 17.3%;
+    display: none;
+}
+.submenu li a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+footer{
+    background-color: teal
+}
+section h1{
+    height: 100px;
+    margin: 2rem auto;
+    text-align: center;
+    width: 800px;
+}
+section p{
+    padding: 0 1rem;
+    font-size: 2rem;
+    background-color: darksalmon;
+}
+#contenido{
+    background-color: rgb(170, 173, 173);
+    width: 600px;
+}
+aside{
+    float: left;
+    width: 30%;
+
+}
+nav{
+    width: 100%;
+    background-color: green;
+}
+.contenedor::after{
+   content: "";
+   display: block;
+   clear: both;
+}
+.submenu2{
+    position: absolute;
+    background-color: green;
+    width: 17.3%;
+    display: none;
+}
+.submenu2 li a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}    
+.submenus{
+    position: absolute;
+    background-color: green;
+    width: 25.8%;
+    display: none;
+}
+.submenus li a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}    
